@@ -4,7 +4,7 @@ trigger:
 - main
 
 pool:
-  vmImage: agent
+  vmImage: 'Laptop-BP91PGR5'
 
 steps:
 - script: echo Hello, world!
