@@ -1,0 +1,16 @@
+
+
+trigger:
+- main
+
+pool:
+  vmImage: LenovoPool
+
+steps:
+- script: echo Hello, world!
+  displayName: 'Run a one-line script'
+
+- script: |
+    echo Add other tasks to build, test, and deploy your project.
+    echo Pipeline running
+  displayName: 'Run a multi-line script'
