@@ -4,7 +4,7 @@ trigger:
 - main
 
 pool:
-  vmImage: LenovoPool
+  vmImage: agent
 
 steps:
 - script: echo Hello, world!
