@@ -1,8 +1,12 @@
   name: actionsPractise
   on:
    workflow_dispatch: 
+  env:
+    FIRST_NAME: Abhinav
   jobs:
    my_first_job:
+    env:
+      LAST_NAME: Upadhyay
     name: :my first job
     runs-on: ubuntu-22.04
     steps:
