@@ -6,7 +6,7 @@
   jobs:
    my_first_job:
     env:
-      LAST_NAME: Upadhyay
+      LAST_NAME: UPADHYAY
     name: :my first job
     runs-on: ubuntu-22.04
     steps:
@@ -14,9 +14,11 @@
         uses: actions/checkout@v6.0.3
       - name: Greetings
         run: echo "Hello World"
+        
 
       - name: List Files
         run: ls -la
+        run: echo "Abhinav ${{vars.Sirname}}
  
 
     
