@@ -13,12 +13,12 @@
       - name: Checkout
         uses: actions/checkout@v6.0.3
       - name: Greetings
-        run: echo "Hello World"
+        run: echo "Abhinav ${{vars.SIRNAME}}
         
 
       - name: List Files
         run: ls -la
-        run: echo "Abhinav ${{vars.Sirname}}
+        run: echo "Abhinav ${{vars.SIRNAME}}
  
 
     
